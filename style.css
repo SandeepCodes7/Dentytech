@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 14px;
+    border: 1px solid black;
+    font-weight: 400 ;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+#nav i{
+    font-size: 14px;
+    border: 1px solid black;
+    font-weight: 400 ;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+#nav h1{
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+#Tooth{
+    background-color: hsl(31, 100%, 50%);
+    color: white;
+    position: absolute;
+    top: 2.7%;
+    left: 42.3%;
+}
+#nav button{
+    padding: 5px 8px;
+    border-radius: 40px;
+    border: 1px solid black;
+    font-size: 13px;
+    font-weight: 500;
+}
+#BT2{
+    border: none;
+    color: white;
+    background-color: hwb(34 0% 0%);
+}
+#main>h1{
+    font-size: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+#img1{
+    transform: translate(-50%, -50%)rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%)rotate(-20deg);
+
+}
+
+#img3{
+    transform: translate(-50%, -50%)rotate(-10deg);
+
+}
+#btml1{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+    font-size: 18px;
+}
+#A{
+    padding: 19px;
+    position: absolute;
+    size-adjust: 52;
+    bottom: 1%;
+    right: 48%;
+    border-radius: 550px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+#ic{
+    position: absolute;
+    bottom: 7%;
+    right: 3%;
+    padding: 0px 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
